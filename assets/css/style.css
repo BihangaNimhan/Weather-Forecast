@@ -1,0 +1,26 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 6, 2024, 11:38:17 AM
+    Author     : CHAMA COMPUTERS
+*/
+
+@font-face {
+  font-family: 'brand_font'; /* Define a name for your custom font */
+  src: url('../fonts/RubikDoodleShadow-Regular.ttf') format('truetype'); /* Specify the path to your font file and its format */
+}
+
+.navbar-brand {
+  font-family: 'brand_font', sans-serif; /* Apply the custom font to the navbar-brand class */
+}
+.card_bg{
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
